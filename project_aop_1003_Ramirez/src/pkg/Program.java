@@ -2,7 +2,7 @@ package pkg;
 
 public class Program {
 	public static void main(String[] args) {
-		System.out.println("[DBG] Start...");
+		//System.out.println("[DBG] Start...");
 		ComponentApp componentApp = new ComponentApp("COM");
 		DataApp dataApp = new DataApp("DATA");
 		ServiceApp serviceApp = new ServiceApp("SRC");
@@ -15,6 +15,6 @@ public class Program {
 
 		String srcName = serviceApp.getName();
 		System.out.println("  SRC NAME: " + srcName);
-		System.out.println("[DBG] Done.");
+		//System.out.println("[DBG] Done.");
 	}
 }
